@@ -111,7 +111,7 @@ The inclusion of the translation component ${\bf t}$ complicates the notation si
 
 $$
 \begin{align}
-	{\bf x}^\prime = R\,A\,{\bf x},
+	{\bf x}^\prime = R A{\bf x},
 	\label{linearNDs}
 \end{align}
 $$
@@ -120,7 +120,7 @@ which has the following inverse:
 
 $$
 \begin{align}
-	{\bf x} = \left(R\,A\right)^{-1}\,{\bf x}^\prime = A^{-1}R^{-1}\,{\bf x}^\prime.
+	{\bf x} = \left(R A\right)^{-1}{\bf x}^\prime = A^{-1}R^{-1}{\bf x}^\prime.
 	\label{linearInverse}
 \end{align}
 $$
