@@ -1,10 +1,10 @@
 # Affine Transformations
 
-#### **Overview**
+### **Overview**
 
 Affine transformations preserve straight lines and parallel lines. But they do to in general preserve angles and distances. In contrast with linear transformations,  an affine transformations does not preserve the origin. While a linear transformation keeps the transformed vectors "attached" to the origin, the affine transformation may "shift" or translate the location of transformed vectors. Affine transformations include linear transformations as a sub set.
 
-#### **One-dimensional affine transformations** 
+### **One-dimensional affine transformations** 
 
 The function $f: \mathbb{R} \rightarrow \mathbb{R}$ such that
 
@@ -17,7 +17,7 @@ $$
 
 with $a,b\in \mathbb{R}$ is a 1-D affine transformation. It maps (transforms) the value $x$ onto a new value $ax + b$. For example, $f\left(x\right) = 3x + 1$. Note that the affine transformation consists of a linear transformation (i.e., $ax$) followed by a translation (or shift) by a quantity $b$. 
 
-#### **Two-dimensional linear transformations** 
+### **Two-dimensional linear transformations** 
 
 The 2-D extension of the affine function in Equation $\ref{linear1D}$ transforms two-dimensional vectors ${\bf x} = (x,y)^\mathsf{T}$ onto two-dimensional vectors. In this case, we write $f: \mathbb{R}^2 \rightarrow \mathbb{R}^2$ such that:
 
@@ -76,7 +76,7 @@ $$
 \end{align}
 $$
 
-#### **The translation component complicates the matrix notation** 
+### **The translation component complicates the matrix notation** 
 
 In comparison with linear transformations, the added (i.e., translation) term in the affine transformation complicates both the notation and algebraic manipulations when we compose multiple transformations. For example, the following composition applies a general affine transformation $A$ to vector ${\bf x}$ followed by a rotation $R$:
 
