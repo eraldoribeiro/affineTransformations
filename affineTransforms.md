@@ -10,10 +10,11 @@ The function $f: \mathbb{R} \rightarrow \mathbb{R}$ such that
 
 $$
 \begin{align}
-	f(x) = ax  + b
-		\label{linear1D}
+   f(x) = ax  + b
+   \label{linear1D}
 \end{align}
 $$
+
 with $a,b\in \mathbb{R}$ is a 1-D affine transformation. It maps (transforms) the value $x$ onto a new value $ax + b$. For example, $f\left(x\right) = 3x + 1$. Note that the affine transformation consists of a linear transformation (i.e., $ax$) followed by a translation (or shift) by a quantity $b$. 
 
 #### **Two-dimensional linear transformations** 
