@@ -53,14 +53,16 @@ $$
 	\end{bmatrix},
 \end{align}
 $$
+
 or, in short:
 
 $$
 \begin{align}
-	{\bf x}^\prime = A{\bf x} + {\bf b}.
-	\label{linearND}
+   {\bf x}^\prime = A{\bf x} + {\bf b}.
+   \label{linearND}
 \end{align}
 $$
+
 The figure shows an example of an affine transformation applied to a rectangle shape.
 
 <img src="plot.png" alt="plot" style="zoom:25%;" />
@@ -91,6 +93,7 @@ $$
 	\label{affine3exapanded}
 \end{align}
 $$
+
 which has the following inverse transformation: 
 
 $$
@@ -101,6 +104,7 @@ $$
 	\label{affine3inverse}
 \end{align}
 $$
+
 The inclusion of the translation component ${\bf t}$ complicates the notation significantly when compared to compositions of linear transformations such as: 
 $$
 \begin{align}
@@ -108,12 +112,15 @@ $$
 	\label{linearNDs}
 \end{align}
 $$
+
 which has the following inverse:
+
 $$
 \begin{align}
 	{\bf x} = \left(R\,A\right)^{-1}\,{\bf x}^\prime = A^{-1}R^{-1}\,{\bf x}^\prime.
 	\label{linearInverse}
 \end{align}
 $$
+
 We can make the matrix notation of affine transformations more concise by using *Homogeneous* coordinates (or projective coordinates) instead of Cartesian coordinates. This is done by augmenting the Cartesian coordinates with an extra non-zero coordinate value, which is usually chosen to be 1. We will talk more about homogenous coordinates later. 
 
