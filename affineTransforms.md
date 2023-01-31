@@ -86,7 +86,9 @@ $$
 	\label{affineInverse}
 \end{align}
 $$
+
 Equation $\ref{affine3}$ can be written as: 
+
 $$
 \begin{align}
 	{\bf x}^\prime = R\,A\,{\bf x} + R\,{\bf b},
@@ -106,6 +108,7 @@ $$
 $$
 
 The inclusion of the translation component ${\bf t}$ complicates the notation significantly when compared to compositions of linear transformations such as: 
+
 $$
 \begin{align}
 	{\bf x}^\prime = R\,A\,{\bf x},
