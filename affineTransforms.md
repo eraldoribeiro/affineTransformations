@@ -82,7 +82,7 @@ In comparison with linear transformations, the added (i.e., translation) term in
 
 $$
 \begin{align}
-	{\bf x}^\prime = R\,\left(A\,{\bf x} + {\bf b}\right),
+	{\bf x}^\prime = R\left(A{\bf x} + {\bf b}\right),
 	\label{affineInverse}
 \end{align}
 $$
@@ -91,7 +91,7 @@ Equation $\ref{affine3}$ can be written as:
 
 $$
 \begin{align}
-	{\bf x}^\prime = R\,A\,{\bf x} + R\,{\bf b},
+	{\bf x}^\prime = RA{\bf x} + R{\bf b},
 	\label{affine3exapanded}
 \end{align}
 $$
@@ -100,9 +100,9 @@ which has the following inverse transformation:
 
 $$
 \begin{align}
-	{\bf x} &= (R\,A)^{-1}\,{\bf x}^\prime - (R\,A)^{-1}\,R\,{\bf b} \notag \\
-	&= (A^{-1}\,R^{-1})\,{\bf x}^\prime - (A^{-1}\,R^{-1})\,R\,{\bf b}\notag\\
-		&= (A^{-1}\,R^{-1})\,{\bf x}^\prime - A^{-1}\,{\bf b}.
+	{\bf x} &= (RA)^{-1}{\bf x}^\prime - (RA)^{-1}R{\bf b} \notag \\
+	&= (A^{-1}R^{-1}){\bf x}^\prime - (A^{-1}R^{-1})R{\bf b}\notag\\
+		&= (A^{-1}R^{-1}){\bf x}^\prime - A^{-1}{\bf b}.
 	\label{affine3inverse}
 \end{align}
 $$
